@@ -27,7 +27,7 @@
 
 <style lang="scss">
 html {
-  font-family: 'Nunito', Arial, sans-serif;
+  font-family: "Nunito", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -36,9 +36,9 @@ html {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
- body {
-   background: #ECECEC;
- }
+body {
+  background: #ececec;
+}
 *,
 *:before,
 *:after {
@@ -70,15 +70,14 @@ header {
       display: flex;
       li a {
         font-weight: normal;
-        padding: .5em;
+        padding: 0.5em;
       }
     }
   }
 }
 @media only screen and (min-width: 768px) {
-  body { 
+  body {
     font-size: 18px;
   }
 }
-
 </style>
